@@ -22,7 +22,6 @@
 //int base;
 //        int height;
 //        int area;
-//
 //        Scanner scanner = new Scanner(System.in);
 //        System.out.println("We are finding the area of a triangle");
 //        System.out.println("Enter the value of the base");
@@ -96,4 +95,69 @@
 //        daysOfweek[6] = "Saturday";
 //
 //        String[] days = {"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"};
+
+//In Java we use operators and variables to create expression and with
+//expression we can build logic and algorithms
+
+//Java operators
+//1. Arithmetic
+//2. Assignement
+//3. Comparision
+//4. Logical
+
+//Arithmetic Operators
+//int x = 10;
+//int y = 5;
+
+//     int add = x + y;
+//     int substract = x - y;
+//     int multiply = x*y;
+//     int divide = x/y;
+//
+//     int remainder = x%y;
+//System.out.println(remainder);
+
+//Post Increment "plus (+) or minus (-) comes after".
+//Pre increment "plus (+) or minus (-) comes before".
+//int age = 1;
+//Every Birthday, add one to age
+//age++ or age--;
+//System.out.println(age);
+
+
+//Assignement Operators
+
+//x = x+y;
+//x*= y;
+
+// Comparision Operators (Result of an expression in comparision operator is boolean)
+
+//        boolean isGreater = x <= y;
+//        System.out.println(isGreater);
+// != (Not equal to)
+
+//if a person is older than 65, they are senior, otherwise they are considered an adult
+
+//int age = 66;
+//String status = age > 65 ? "Senior" : "Adult";
+//System.out.println(status);
+
+//Logical Operators
+//flip logic "put ! before the statement"
+//boolean nameCorrect = true;
+//boolean passwordCorrect = false;
+
+//boolean correctLogin = nameCorrect && passwordCorrect;
+//System.out.println(correctLogin);
+
+//        //Create age variable and set your age to it
+//        int myAge = 30;
+//        //Calculate if they are a child (True if they are age 7 or under)
+//        boolean isChild = myAge <= 7;
+//        //Calculate if they are senior (True if they are 65 or older)
+//        boolean isSenior = myAge >= 65;
+//        //Print both values
+//        System.out.println(isChild);
+//        System.out.println();
+//        System.out.println(isSenior);
 
